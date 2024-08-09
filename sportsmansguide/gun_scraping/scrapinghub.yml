@@ -1,0 +1,5 @@
+image: true
+project: 761217
+# requirements:
+#   file: requirements.txt
+version: GIT
