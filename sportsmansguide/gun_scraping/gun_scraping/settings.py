@@ -98,9 +98,11 @@ MEMUSAGE_ENABLED = True
 #HTTPCACHE_DIR = "httpcache"
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = "scrapy.extensions.httpcache.FilesystemCacheStorage"
-API_KEY = '8ca5b8f6162af505c9e7862b5733f7d50d2d6d2d5292c140314e7f036935e52f50ebade68f63c613fe6ff7a09de9d01c847d4dd79a873e784478e9fb2518c643c7b0a542c6d00bec837986905c56a589868c6a27c42a0bf7e2f6cbb547c0a4ca5cfaa6743e3e0dec4d559714af605f6d2c01e4148308dc53886d91e241f41617'
-SCRAPE_KEY = 'bef1dd0785194e87980e7f67f856a2918e1331566ac'
+
+API_KEY = ''
+SCRAPE_KEY = ''
+
 # Set settings whose default value is deprecated to a future-proof value
 REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
 # TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
-FEED_EXPORT_ENCODING = "utf-8"
+FEED_EXPORT_ENCODING = "utf-8-sig"

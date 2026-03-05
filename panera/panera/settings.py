@@ -64,10 +64,12 @@ DEPTH_LIMIT = 3
 DOWNLOADER_MIDDLEWARES = {
     "rotating_proxies.middlewares.RotatingProxyMiddleware": 610,
 }
-ROTATING_PROXY_LIST = [
-    'http://brd-customer-hl_fb2f275a-zone-lupineai_datacenter-country-us:zhlyqc1403il@brd.superproxy.io:22225',
-    'https://brd-customer-hl_fb2f275a-zone-lupineai_datacenter-country-us:zhlyqc1403il@brd.superproxy.io:22225'
-]
+
+
+# ROTATING_PROXY_LIST = [
+#     '',
+#     ''
+# ]
 
 
 

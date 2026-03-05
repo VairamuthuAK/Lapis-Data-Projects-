@@ -1,7 +1,5 @@
 import logging
 from scrapy.utils.log import configure_logging
-# from twisted.internet import reactor
-# from twisted.internet.threads import deferToThread
 from playwright.sync_api import sync_playwright
 from datetime import datetime
 import scrapy
